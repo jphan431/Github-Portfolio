@@ -16,14 +16,8 @@ def login():
 	
 	userInput = input("Enter a Password:")
 	
-	"""
-		document your function definition here. what does it do?
-	"""
-
-	"""
-		delete the remaining code *in this function* and replace it with
-		your own code. add more code to do what the assignment asks of you.
-	"""
+	
+		
 	
 	emailAddress = "malcomx@mecca.com"
 
