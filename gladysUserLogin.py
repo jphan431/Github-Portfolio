@@ -1,7 +1,7 @@
 import io
 
 """
-	Student: Gabriel Solomon
+	Student: Jim Phan
 	Module: gladysUserLogin
 	Description: This module does …
 """
