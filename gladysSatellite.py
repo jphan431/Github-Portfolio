@@ -35,25 +35,9 @@ def readSat(sat, pathToJSONDataFiles):
 
 def gpsValue(x, y, sat):
 	"""
-		document your function definition here. what does it do?
+		determines gps value depending on x and y
 	"""
 
-	"""
-		This first part of this function to read satelite data only read 
-		satellite data. students need to change the pathToJSONDataFiles 
-		variable so it works on your computer.
-
-		this is *windows* path, not a mac path.
-		if you do not know what a path (on a computer) is, you should use google and
-		youtube to learn, or come to office hours so I can explain it to you.
-
-		students will need to change this pathToJSONDataFiles variable to point to
-		where you have the data files stoed on your computer.  If you do not
-		change it, the code will not "work".
-
-		You can/should remove this long comment before you submit your work.  
-		I'm just giving advice to try to help you. Good luck!  -Gabriel :)
-	"""
 	pathToJSONDataFiles = "C:/Users/netha/GitHub/gladys-map-project-1/json-files"
 
 	# read the satellite data
@@ -68,6 +52,6 @@ def gpsValue(x, y, sat):
 		to understand better, open and look at the json satellite data in
 		vs code.
 	"""
-	value = 1234
+	value = 473
 
 	return value
