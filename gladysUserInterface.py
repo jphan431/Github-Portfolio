@@ -3,7 +3,7 @@ import io
 
 import gladysCompute as compute
 import gladysSatellite as satellite
-import gladysUserlogin as userlogin
+import gladysUserLogin as userlogin
 
 
 """	
@@ -58,6 +58,7 @@ def runApp(userName):
         # quit
         
         if firstChar == 'q':
+	    print("Thank you for using the app. Goodbye!")
             userQuit = True
         
         #run some tests (this is part 1 of 2)
