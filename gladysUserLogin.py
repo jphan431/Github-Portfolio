@@ -8,7 +8,7 @@ import io
 
 
 def login():
-	username="Jim Phan@yahoo.com"
+	username="JimPhan@yahoo.com"
 	password="test1" 
 	
 	userInput = input("Enter a Login")
@@ -19,7 +19,7 @@ def login():
 	
 		
 	
-	emailAddress = "Jim Phan@yahoo.com"
+	emailAddress = "JimPhan@yahoo.com"
 
 
 	return emailAddress
