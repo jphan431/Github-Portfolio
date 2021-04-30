@@ -21,7 +21,7 @@ def gpsAverage(x, y):
     average = value / 4
     return average
 
-def distance(current, destination):
+def distance(xCurrent, yCurrent, xDestination , yDestination):
     
     """
 
