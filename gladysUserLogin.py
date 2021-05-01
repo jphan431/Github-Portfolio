@@ -14,7 +14,7 @@ def login():
 	userInput = input("Enter a Login")
 	
 	
-	userInput = input("Enter a Password:")
+	userPassword = input("Enter a Password:")
 	
 	if userInput != username:
 		print("ERROR: Userlogin is not valid email address")
@@ -24,6 +24,7 @@ def login():
 		
 	
 	emailAddress = "JimPhan@yahoo.com"
-
+	
+	print("User = JimPhan@yahoo.com")
 
 	return emailAddress
