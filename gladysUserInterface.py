@@ -58,12 +58,49 @@ def runApp(userName):
         # quit
         
         if firstChar == 'q':
-            userQuit = True
+        	userQuit = True
         
         #run some tests (this is part 1 of 2)
         
         elif firstChar == 't':
-            runTests()
+        	runTests()
+	
+	#set current position
+	
+	elif firstChar == 'c':
+		print("You are now entering your current position.")
+		xCurrent = -1
+		while 0 > xCurrent or 99 < xCurrent:
+			print("Please input a valid x-coordinate (0-99)")
+			xCurrent = int(input("Enter x-coordinate: "))
+		yCurrent = -1
+		while 0 > yCurrent or 99 < yCurrent:
+			print("Please input a valid y-coordinate (0-99)")
+			yCurrent = int(input("Enter y-coordinate: "))
+		print("Current position has been set.")
+		return xCurrent and yCurrent
+	
+	#set destination position
+	
+	elif firstChar == 'd':
+		print("You are now entering your destination position.")
+		xDestination = -1
+		while 0 > xDestination or 99 < xDestination:
+			print("Please input a valid x-coordinate (0-99)")
+			xDestination = int(input("Enter x-coordinate: "))
+		yCurrent = -1
+		while 0 > yDestination or 99 < yDestination:
+			print("Please input a valid y-coordinate (0-99)")
+			yDestination = int(input("Enter y-coordinate: "))
+		print("Destination position has been set.")
+		return xDestination and yDestination
+	
+	#map route
+	
+	elif firstChar == 'm':
+		distance(xCurrent, yCurrent, xDestination , yDestination)
+		print("Distance: " + distance)
+		
         else:
             print("ERROR:" + firstChar + "is not a valid command")
 
