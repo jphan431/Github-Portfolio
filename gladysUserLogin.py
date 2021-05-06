@@ -14,11 +14,11 @@ def login():
 	
 	success= 0
 	while success !=  1:
-		userInput = input("Enter a Login")
+		userInput = input("Enter a Login: ")
 	
 	
 
-		userPassword = input("Enter a Password:")
+		userPassword = input("Enter a Password: ")
 
 
 	
