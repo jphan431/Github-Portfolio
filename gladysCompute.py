@@ -28,6 +28,12 @@ def distance(xCurrent, yCurrent, xDestination , yDestination):
     This function will calculate the distance between the current and the destination coordinates. It calls the average function 
     from the satellite module.
     
+    UserInterface module should print this out:
+
+    print("Current       :  x=", xCurrent, "y=", yCurrent)
+    print("Destination   :  x=", xDestination, "y=", yDestination)
+    print("Distance      :", distance)
+    
     """
     distance = (((gpsAverage(xCurrent, yCurrent))**2) + (gpsAverage(xDestination, yDestination))**2)**0.5
     return distance
