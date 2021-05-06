@@ -41,7 +41,9 @@ def gpsValue(x, y, sat):
 
 	# read the satellite data
 	data = readSat(sat, pathToJSONDataFiles)
-
-	value = 473
+	for row in data
+		if row[0] == x and row[1] == y
+			return row[2]
+	value = row[2]
 
 	return value
