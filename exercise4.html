@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    
+</head>
+
+<body onload="showOnPageLoad()"> 
+<h1> Exercise 4 </h1>
+    
+
+    <p id="changeColor" onmousedown="changeColor(this,'red')" onmouseup="changeColor(this, 'green')">Click the text to change the color.</p>
+    <p> 
+       
+           
+    
+   
+   
+        <label for="username">Enter your name: </label>
+    <input type="text" name="username" id="un" onchange="changeToUpperCase(this.value)">
+   
+    <p >When you leave the input field, the upper text will be changed to uppercase.</p>
+
+<script src="exercise4.js"></script>
+
+<script>
+    
+function showOnPageLoad() {
+    alert("Page is Loaded.");
+}
+    
+    
+function changeColor(element, color) {
+    element.style.color = color;
+}
+    
+
+    
+    
+    
+</script>
+    
+
+    
+
+
+
+
+
+   
+  
+    
+
+    
+        
+</body>
+
+</html>
